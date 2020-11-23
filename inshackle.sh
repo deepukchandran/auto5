@@ -441,7 +441,7 @@ madonna="181306552"
 leonardodicaprio="1506607755"
 ladygaga="184692323"
 taylorswift="11830955"
-instagram="25025320"
+instagram="@instagram"
 
 
 if [[ ! -e celeb_id ]]; then
