@@ -1,7 +1,9 @@
 #!/bin/bash
-# Inshackle version 1
-# coded by: @nandy121
-# github.com/nandy121/inshackle
+# Inshackle v1.0
+# published by @xd20111 
+# IG @xd_20111
+# coded by: @linux_choice
+# github.com/thelinuxchoice/inshackle
 # If you use any part from this code, give me the credits, please, read the License
 
 
@@ -31,7 +33,7 @@ printf " \e[1;31mM  M\e[0m\e[1;77m dP    dP \`88888P\' \e[0m\e[1;93mdP    dP \`8
 printf " \e[1;31mMMMM\e[0m                                                                    \n"
 printf "\n"
 
-printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/thelinuxchoice/inshackle\e[0m\n"
+printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/xd20111/inshackle\e[0m\n"
 }
 
 
@@ -441,6 +443,11 @@ ladygaga="184692323"
 taylorswift="11830955"
 instagram="25025320"
 
+
+if [[ ! -e celeb_id ]]; then
+printf "%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $dualipa $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
+fi
+
 while [[ true ]]; do
 
 
@@ -659,3 +666,4 @@ fi
 
 banner
 menu
+
